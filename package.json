@@ -1,5 +1,6 @@
 {
   "name": "react-server-sent-events",
+  "license": "MIT",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
@@ -7,5 +8,18 @@
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react": ">=17.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:lint": "eslint . --ignore-path .gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Juniper-Health/react-server-sent-events.git"
   }
 }
